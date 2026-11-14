@@ -16,7 +16,7 @@ function EsempioEvento() {
 	return (
 		<div className="component">
 			<p>Elemento cliccato {numeroClick} volte</p>
-			<div>{numeroClick > 3 ? "Superato" : ""}</div>
+			<div>{numeroClick > 6 ? "Superato" : ""}</div>
 			<button onClick={onButtonClick} >Cliccami!</button>
 		</div>
 	)
